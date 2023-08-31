@@ -189,13 +189,13 @@ const InvoiceForm = () => {
           <div className="flex w-full justify-between md:w-1/2">
             <span className="font-bold">Discount:</span>
             <span>
-              ({discount || '0'}%)${discountRate.toFixed(2)}
+              ({discount || '0'}%)₹{discountRate.toFixed(2)}
             </span>
           </div>
           <div className="flex w-full justify-between md:w-1/2">
             <span className="font-bold">Tax:</span>
             <span>
-              ({tax || '0'}%)${taxRate.toFixed(2)}
+              ({tax || '0'}%)₹{taxRate.toFixed(2)}
             </span>
           </div>
           <div className="flex w-full justify-between border-t border-gray-900/10 pt-2 md:w-1/2">
